@@ -12,3 +12,42 @@ body{
     max-width: 1170px;
     margin: 0 auto;
 }
+/* nav-area css starts */
+.nav-area{
+    margin-top: 100px;
+}
+.nav-area .row{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    
+    gap: 45px;
+    /* align-items: flex-start; */
+    
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 65%;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: 800;
+}
+.menu a i .fa-solid fa-magnifying-glass{
+    font-size: 30px;
+}
+.search-icon i{
+    font-size: 25px;
+    padding-left: 15px;
+    
+}
+.cart-icon i{
+    font-size: 25px;
+    padding-right: 70px;
+}
+/* nav-area css ends */
