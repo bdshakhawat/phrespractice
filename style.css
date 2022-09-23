@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -134,4 +135,32 @@ body{
 }
 
 
-/* Brand area css start */
+/* Brand area css Ends */
+
+
+/* Popular collection Starts */
+.popular-collection h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.popular-collection .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+}
+.popular-collection .card-one,.card-two,.card-three,.card-four,
+.card-five,.card-six,.card-seven,.card-eight,.card-nine {
+        text-align: left;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        margin-top: 20px;
+        background-color: #EDF5F6;
+        
+        border-radius: 10px;
+        padding: 20px 20px;
+}
+
+
+
+
+/* Popular collection Ends */
