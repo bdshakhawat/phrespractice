@@ -104,6 +104,7 @@ body{
 }
 .text-area p,h1{
     margin-top: 20px;
+    color: #18191F;
 }
 
 
@@ -139,9 +140,14 @@ body{
 
 
 /* Popular collection Starts */
+.popular-collection{
+    margin-bottom: 50px;
+}
 .popular-collection h2{
     text-align: center;
     margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 800;
 }
 .popular-collection .row{
     display: grid;
@@ -152,15 +158,129 @@ body{
 .card-five,.card-six,.card-seven,.card-eight,.card-nine {
         text-align: left;
         margin: 0 auto;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
         margin-top: 20px;
-        background-color: #EDF5F6;
+        background-color: #ffffff;
         
         border-radius: 10px;
         padding: 20px 20px;
+        
+}
+.popular-collection .row h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+.star-area .stars span {
+    color: #fb8200;
+
+}
+.star-area p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.star-area{
+    display: flex;
+    justify-content: space-between;
+}
+.stars{
+    width: 40%;
+}
+.star-area p{
+    width: 60%;
+    text-align: left;
+    
 }
 
 
 
 
 /* Popular collection Ends */
+
+
+/* See More css Start */
+.see-more{
+    margin-bottom: 100px;
+}
+.see-more p{
+    text-align: right;
+    color: #e44880;
+    font-weight: 800;
+    padding-right: 20px;
+}
+.see-more span{
+    padding-left: 10px;
+}
+
+
+/* See More css Ends */
+
+
+/* Featured product css Starts */
+.featured-product{
+    margin-bottom: 100px;
+}
+.featured-product .row{
+    display: flex;
+    justify-content: space-between;
+}
+ .imag-area{
+    width: 50%;
+    padding-left: 20px;
+}
+.txt-area{
+    width: 50%;
+    
+}
+.txt-area h1{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.txt-area p{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.txt-area button{
+    padding: 10px 30px;
+    color: #ffffff;
+    background-color: #e44880;
+    border: 1px solid #e44880;
+    font-size: 17px;
+    font-weight: 700;
+}
+.txt-area button span{
+    padding-left: 10px;
+}
+
+
+/* Featured product css Ends */
+
+
+/* Footer css starts */
+footer{
+    text-align: center;
+    /* margin-bottom: 10px; */
+    background-color: #0a0826;
+    color: #ffffff;
+    padding: 50px 50px;
+}
+.social-area span{
+    padding-left: 10px;
+    
+}
+.texts-area{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.texts-area h2{
+    padding-bottom: 10px;
+}
+.texts-area h5{
+    padding-top: 10px;
+
+}
+
+
+
+/* Footer css ends */
+
